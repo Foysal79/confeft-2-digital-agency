@@ -70,6 +70,7 @@
     display: flex;
     padding: 20px;
     align-items: center;
+    justify-content: space-around;
 }
 .icon{
     width: 70px;
@@ -118,4 +119,58 @@
     font-size: 45px;
     font-style: italic;
 
+}
+.phone-call{
+    display: flex;
+    align-items: center;
+    
+}
+.apinment-contener{
+display: flex;
+justify-content: space-around;
+width: 70%;
+margin: auto;
+padding: 20px;
+background-color: red;
+border-radius: 10px;
+margin-top: -35px;
+align-items: center;
+margin-bottom: 25px;
+}
+.apin-description{
+    margin: 20px;
+    padding-left: 15px;
+    border-left: 2px solid black;
+    
+    border-right: 2px solid black;
+    text-align: center;
+}
+.displying-continer{
+    text-align: center;
+    padding: 30px;
+}
+.fram-img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.frem{
+    width: 300px;
+    height: 400px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 5px gray;
+    
+}
+.fram-continer{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+}
+.had-dis{
+    padding: 2px;
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
 }
